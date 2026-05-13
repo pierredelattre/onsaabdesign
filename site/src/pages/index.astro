@@ -5,19 +5,19 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>onsaabdesign</title>
+  <title>onsaabdesign.com</title>
   <meta name="description" content="An independent archive on Saab automotive design. Ergonomics, engineering, design, philosophy, people." />
   <meta property="og:title" content="onsaabdesign" />
   <meta property="og:description" content="An independent archive on Saab automotive design." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400&family=Barlow+Condensed:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
 </head>
 <body>
   <main>
     <p class="brand">onsaabdesign</p>
-    <h1>Saab got it right.<br />This is the archive.</h1>
-    <p class="subtitle">An independent archive on Saab automotive design.</p>
+    <p class="primary">An independent archive on Saab automotive design.</p>
+    <p class="secondary">Documenting the design, ergonomics and engineering philosophy behind a marque that got it right.</p>
     <p class="tags">Ergonomics · Engineering · Design · Philosophy · People · Archive</p>
     <p class="contact">
       <a href="mailto:contact@onsaabdesign.com">contact@onsaabdesign.com</a> — 2026
@@ -40,7 +40,8 @@
   body {
     background-color: #F4F0E8;
     color: #000;
-    font-family: 'Barlow', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 0.9rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,51 +51,40 @@
 
   main {
     text-align: center;
-    max-width: 600px;
+    max-width: 520px;
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 1.75rem;
+    gap: 1.5rem;
   }
 
   .brand {
-    font-family: 'Barlow Condensed', sans-serif;
     font-weight: 300;
-    font-size: 0.7rem;
-    letter-spacing: 0.25em;
+    letter-spacing: 0.22em;
     text-transform: uppercase;
+    color: #999;
   }
 
-  h1 {
-    font-family: 'Barlow Condensed', sans-serif;
-    font-weight: 600;
-    font-size: clamp(2.2rem, 7vw, 3.75rem);
-    line-height: 1.05;
-    letter-spacing: -0.01em;
+  .primary {
+    font-weight: 500;
+    color: #000;
   }
 
-  .subtitle {
-    font-family: 'Barlow', sans-serif;
+  .secondary {
     font-weight: 300;
-    font-size: clamp(0.9rem, 2vw, 1rem);
     color: #444;
   }
 
   .tags {
-    font-family: 'Barlow Condensed', sans-serif;
-    font-weight: 400;
-    font-size: 0.72rem;
-    letter-spacing: 0.18em;
+    font-weight: 300;
+    letter-spacing: 0.12em;
     text-transform: uppercase;
-    color: #666;
+    color: #888;
   }
 
   .contact {
-    font-family: 'Barlow', sans-serif;
     font-weight: 400;
-    font-size: 0.82rem;
     color: #000;
-    margin-top: 0.25rem;
   }
 
   .contact a {
@@ -106,6 +96,6 @@
   }
 
   .contact a:hover {
-    opacity: 0.45;
+    opacity: 0.4;
   }
 </style>
