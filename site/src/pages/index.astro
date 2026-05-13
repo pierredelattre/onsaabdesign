@@ -1,46 +1,67 @@
 ---
+
 ---
-<!DOCTYPE html>
+
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>onsaabdesign.com</title>
-  <meta name="description" content="An independent archive on Saab automotive design. Ergonomics, engineering, design, philosophy, people." />
-  <meta property="og:title" content="onsaabdesign" />
-  <meta property="og:description" content="An independent archive on Saab automotive design." />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
-</head>
-<body>
-  <main>
-    <p class="brand">onsaabdesign</p>
-    <p class="primary">An independent archive on Saab automotive design.</p>
-    <p class="secondary">Documenting the design, ergonomics and engineering philosophy behind a marque that got it right.</p>
-    <p class="tags">Ergonomics · Engineering · Design · Philosophy · People · Archive</p>
-    <p class="contact">
-      <a href="mailto:contact@onsaabdesign.com">contact@onsaabdesign.com</a> — 2026
-    </p>
-  </main>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>onsaabdesign.com</title>
+    <meta
+      name="description"
+      content="An independent archive on Saab automotive design. Ergonomics, engineering, design, philosophy, people."
+    />
+    <meta property="og:title" content="onsaabdesign" />
+    <meta
+      property="og:description"
+      content="An independent archive on Saab automotive design."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <p class="brand">onsaabdesign.com</p>
+      <div style="display: flex; flex-direction: column; gap: 0.25rem">
+        <p class="primary">An independent archive on Saab automotive design.</p>
+        <p class="secondary">
+          Documenting the design, ergonomics and engineering philosophy behind a
+          marque that got it right.
+        </p>
+      </div>
+      <p class="tags">
+        Ergonomics · Engineering · Design · Philosophy · People
+      </p>
+      <p class="contact">
+        <a href="mailto:contact@onsaabdesign.com">contact@onsaabdesign.com</a> — 2026
+      </p>
+    </main>
+  </body>
 </html>
 
 <style>
-  *, *::before, *::after {
+  *,
+  *::before,
+  *::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
   }
 
-  html, body {
+  html,
+  body {
     height: 100%;
   }
 
   body {
-    background-color: #F4F0E8;
+    background-color: #f4f0e8;
     color: #000;
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     font-size: 0.9rem;
     display: flex;
     align-items: center;
@@ -59,31 +80,31 @@
   }
 
   .brand {
-    font-weight: 300;
-    letter-spacing: 0.22em;
-    text-transform: uppercase;
-    color: #999;
-  }
-
-  .primary {
     font-weight: 500;
     color: #000;
   }
 
+  .primary {
+    font-weight: 500;
+    line-height: 1.5;
+    color: #000;
+  }
+
   .secondary {
-    font-weight: 300;
+    font-weight: 400;
+    line-height: 1.5;
     color: #444;
   }
 
   .tags {
-    font-weight: 300;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: #888;
+    font-weight: 400;
+    font-size: .875rem;
+    white-space: nowrap;
+    color: #696767;
   }
 
   .contact {
-    font-weight: 400;
+    font-weight: 500;
     color: #000;
   }
 
