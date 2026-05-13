@@ -2,32 +2,34 @@
 
 > Priorisé par valeur éditoriale et fondation du projet.
 
-## 🔴 P0 — Fondations
+## 🔴 P0 — Fondations vault
 
-- [ ] Compléter docs/00_brief.md (vision, problème, audience)
-- [ ] Compléter docs/01_market.md (positionnement, concurrents, différenciation)
-- [ ] Compléter docs/05_mlp_scope.md (5 features max du second cerveau)
-- [ ] Première fiche vault : `vault/philosophy/saab-aircraft-dna.md`
-- [ ] Première fiche vault : `vault/ergonomics/cockpit-philosophy.md`
-- [ ] Première fiche vault : `vault/people/sixten-sason.md` (designer clé)
+- [ ] **S01** — Valider le template de fiche (`vault/TEMPLATE.md`) sur 2 fiches test
+- [ ] **S02** — Écrire les 3 fiches philosophie fondatrices
+- [ ] **S03** — Fiche Sixten Säsonson (`vault/people/`)
+- [ ] **S04** — Fiches cockpit & ergonomie (`vault/ergonomics/`)
+- [ ] **S05** — Fiche connexion Saab/Braun (`vault/connections/`)
 
-## 🟡 P1 — Structure éditoriale
+## 🟡 P1 — Vault initial complet (10 fiches)
 
-- [ ] Définir le template standard des fiches vault (frontmatter YAML)
-- [ ] Première fiche connexion : `vault/connections/braun-saab-parallel.md`
-- [ ] Fiche modèle : `vault/models/saab-900.md`
-- [ ] Décider format de publication (Obsidian Publish / site statique / newsletter)
+- [ ] `vault/models/saab-900.md`
+- [ ] `vault/models/saab-99.md`
+- [ ] `vault/engineering/turbo-saab.md`
+- [ ] `vault/brand/typography.md`
+- [ ] Mettre à jour `vault/INDEX.md` à chaque fiche complétée
 
-## 🟢 P2 — Contenu & publication
+## 🟢 P2 — Publication (déclencher à 20 fiches)
 
-- [ ] 5 fiches vault complètes
-- [ ] Décision stack publication
-- [ ] Nom de domaine onsaabdesign.com — pointer vers publication
-- [ ] Présence réseaux sociaux (Instagram en priorité — format visuel)
+- [ ] **S06** — Décision stack publication (Astro recommandé)
+- [ ] Setup repo Astro
+- [ ] Design minimaliste typographie soignée
+- [ ] onsaabdesign.com → déploiement
 
 ## 💡 Idées à explorer
 
 - Série "Saab vs Braun" — comparaisons de détails de design
-- Interview format : ingénieurs / designers ex-Saab
-- Timeline interactive du design Saab (1947→2011)
-- Glossaire "Human Factors cockpit" appliqué à l'auto
+- Timeline interactive Saab 1947-2011
+- Galerie "cockpit" — postes de conduite Saab photographiés
+- Glossaire Human Factors appliqué à l'auto
+- Fiche Björn Envall (designer 900 classique)
+- Connexion Saab / Volvo (deux philosophies scandinaves divergentes)
