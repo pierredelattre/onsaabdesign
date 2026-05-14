@@ -8,7 +8,18 @@ Projet éditorial indépendant. Archive / second cerveau centré sur Saab comme 
 ## Ce projet n'est PAS
 - Un fan site ou forum
 - Un site e-commerce
-- Un projet avec codebase (pour l'instant)
+
+## Périmètre Claude
+
+**Claude s'occupe de :**
+- Architecture projet (structure vault, conventions, templates)
+- Config technique du site (Astro, Vercel, scripts, CI)
+- Setup et déploiement
+
+**Pierre s'occupe de :**
+- Design et intégration visuelle
+- Contenu éditorial (fiches, textes, pages)
+- Choix graphiques
 
 ## Structure vault
 - `vault/brand/` — identité visuelle, typographie, logos, chartes

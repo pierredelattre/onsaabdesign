@@ -59,9 +59,8 @@ status: draft | review | published
 
 Quand le vault atteint 20 fiches complètes :
 1. Setup Astro avec content collections
-2. Design minimaliste, typographie soignée
-3. Page index par catégorie + système de tags
-4. Déploiement Vercel (preview automatique par PR)
-5. Pointer onsaabdesign.com
+2. Page index par catégorie + système de tags
+3. Déploiement Vercel (preview automatique par PR)
+4. Pointer onsaabdesign.com
 
 Aucun backend, aucune base de données. Site 100% statique.

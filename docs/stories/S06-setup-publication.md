@@ -20,9 +20,13 @@ Décider et configurer la stack pour publier le vault en ligne quand il atteint 
 - Gratuit
 - Moins flexible pour le design
 
+## Périmètre
+Setup technique uniquement. Design et intégration visuelle hors scope Claude.
+
 ## Critères d'acceptance
 - [ ] Décision stack documentée dans un ADR (`docs/adr/`)
-- [ ] Repo configuré pour la publication choisie
+- [ ] Repo Astro configuré + content collections opérationnelles
+- [ ] Déploiement Vercel fonctionnel (preview + prod)
 - [ ] onsaabdesign.com pointé vers le déploiement
 - [ ] Disclaimer visible sur toutes les pages
 

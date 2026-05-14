@@ -16,9 +16,7 @@ Saab s'est éteinte non pas par manque de vision, mais parce que l'industrie a b
 
 ## Pourquoi ce projet
 
-Une formation UX/UI et une sensibilité au design industriel fonctionnaliste d'un côté. Une Saab 900 garée chaque semaine devant l'ECV de l'autre — appartenant à des designers, des architectes, des gens avec un point de vue sur les objets.
-
-Et puis il y a Jony Ive qui annonce concevoir une Ferrari en affirmant que tous les constructeurs se trompent. Saab posait déjà ces questions dans les années 70. Ça vaut la peine de documenter ça, avant que les sources se dispersent et que la mémoire de la marque se réduise à la nostalgie.
+Saab posait des questions de design radicales dans les années 70 que l'industrie redécouvre aujourd'hui. Ça vaut la peine de documenter ça — avant que les sources se dispersent et que la mémoire de la marque se réduise à la nostalgie.
 
 ## Audience
 

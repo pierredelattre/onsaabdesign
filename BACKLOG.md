@@ -21,8 +21,7 @@
 ## 🟢 P2 — Publication (déclencher à 20 fiches)
 
 - [ ] **S06** — Décision stack publication (Astro recommandé)
-- [ ] Setup repo Astro
-- [ ] Design minimaliste typographie soignée
+- [ ] Setup repo Astro + config Vercel
 - [ ] onsaabdesign.com → déploiement
 
 ## 💡 Idées à explorer
