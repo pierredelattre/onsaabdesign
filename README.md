@@ -1,4 +1,4 @@
-# onsaabdesign
+# onsaabdesign.com
 
 > Independent editorial archive. Saab as a design object — ergonomics, engineering philosophy, and the people behind it.
 
